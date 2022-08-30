@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(16, 0, 19, 0.938);
+}
+
+.sidechat{
+    height: 800px;
+    width: 390px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgba(24, 24, 24, 0.884);
+    box-shadow: 0px 1px 11px 8px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+.inchat{
+    height: 50px;
+    width: 380px;
+    border-radius: 20px;
+    background-color: rgba(80, 0, 104, 0.89);
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.chatbox{
+    height: 600px;
+    width: 380px;
+}
+
+.chatbox>lu{
+    list-style-type: none;
+}
+
+.msgbox{
+    height: 80px;
+    width: 340px;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(16, 0, 19, 0.938);
+    box-shadow: 0px 1px 5px 4px rgba(71, 71, 71, 0.75);
+}
+
+.msgbox>h4{
+    color: yellowgreen;
+    font-size: 20px;
+    position: absolute;
+    left: 70px;
+    top: 5px;
+}
+
+.msgbox>p{
+    color: white;
+    position: absolute;
+    left: 75px;
+    top: 30px;
+}
+
+
+.msgw{
+    display: flex;
+}
+
+.msgw>input{
+    background: none;
+    border: 2px solid blue;
+    border-radius: 15px;
+    height: 40px;
+    width: 280px;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.msgw>button{
+    border: none;
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: rgb(83, 0, 83);
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.msgw>button:hover{
+    background-color: mediumorchid;
+}
