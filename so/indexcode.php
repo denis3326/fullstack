@@ -10,7 +10,7 @@
 
     foreach($userid as $id){}
 
-    $link = mysqli_connect('localhost', 'unibook', 'Denis260401', 'deni11');
+    $link = mysqli_connect('localhost', 'root', '', 'top');
 
     $getavatar = mysqli_query($link, "SELECT * FROM users WHERE user_id='$id'");
     $row = mysqli_fetch_assoc($getavatar);
