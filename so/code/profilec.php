@@ -5,7 +5,7 @@ $userid = $_GET['profile'];
 
 if(isset($_POST['profile'])){
 
-    $link = mysqli_connect('localhost', 'unibook', 'Denis260401', 'deni11');
+    $link = mysqli_connect('localhost', 'root', '', 'top');
 
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
