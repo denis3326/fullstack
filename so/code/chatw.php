@@ -3,7 +3,7 @@
 
     if(isset($_POST['send'])){
 
-        $link = mysqli_connect('localhost', 'unibook', 'Denis260401', 'deni11');
+        $link = mysqli_connect('localhost', 'root', '', 'top');
 
         $username = $_SESSION['username'];
         foreach($username as $name){}
