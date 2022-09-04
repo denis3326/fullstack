@@ -6,7 +6,7 @@
             $data['errorMassege'] = '';
         }
 
-        $link = mysqli_connect('localhost', 'unibook', 'Denis260401', 'deni11');
+        $link = mysqli_connect('localhost', 'root', '', 'top');
 
         $username = mysqli_real_escape_string( $link, $_POST['username'] );
         $email = mysqli_real_escape_string( $link, $_POST['email'] );
