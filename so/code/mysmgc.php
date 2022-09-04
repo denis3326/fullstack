@@ -2,7 +2,7 @@
 
 error_reporting(E_ERROR | E_PARSE);
 
-$link = mysqli_connect('localhost', 'unibook', 'Denis260401', 'deni11');
+$link = mysqli_connect('localhost', 'root', '', 'top');
 
 $touserid = $_GET['mymsg'];
 
