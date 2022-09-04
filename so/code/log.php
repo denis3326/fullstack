@@ -6,8 +6,8 @@
             
         }
 
-        $link = mysqli_connect('localhost', 'unibook', 'Denis260401', 'deni11');
-
+        $link = mysqli_connect('localhost', 'root', '', 'top');
+        
         $resultEmail = mysqli_real_escape_string($link, $_POST['email']);
         $resultPass = mysqli_real_escape_string($link, $_POST['password']);
 
